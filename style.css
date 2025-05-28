@@ -6,3 +6,10 @@
 html{
     background-color: aqua;
 }
+
+nav li{
+    list-style: none;
+}
+
+
+
