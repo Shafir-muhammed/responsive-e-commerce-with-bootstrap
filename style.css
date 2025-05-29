@@ -64,8 +64,13 @@ nav li {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   .carosal-700 {
     left: -1.5rem;
   }
+}
+
+.badge{
+  top : -6px;
+  right: -6px;
 }
