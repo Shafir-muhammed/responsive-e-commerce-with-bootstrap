@@ -3,13 +3,69 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
-    background-color: aqua;
+html {
+  /* background-color: aqua; */
 }
 
-nav li{
-    list-style: none;
+nav li {
+  list-style: none;
 }
 
+.bg-light-grey {
+  background-color: #e7f2e4;
+}
 
+.btn-pos {
+  top: 0;
+  left: 0;
+}
 
+.my-btns {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 300px;
+}
+
+.my-btns .size {
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
+.my-btns > div {
+  margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .my-btns {
+    max-width: 250px;
+  }
+  #btn-row i {
+    font-size: 0.8rem;
+  }
+  #btn-row span {
+    font-size: 0.8rem;
+  }
+  /* .img-container-car{
+    padding-top: 3rem;
+    max-width: 450px;
+    min-height: 300px;
+    overflow: hidden;
+  } */
+  .carousel-inner {
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+  .my-btns {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .carosal-700 {
+    left: -1.5rem;
+  }
+}
