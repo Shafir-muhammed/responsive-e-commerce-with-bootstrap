@@ -11,6 +11,11 @@ nav li {
   list-style: none;
 }
 
+.badge {
+  top: -6px;
+  right: -6px;
+}
+
 .bg-light-grey {
   background-color: #e7f2e4;
 }
@@ -35,6 +40,20 @@ nav li {
 .my-btns > div {
   margin-left: 10px;
 }
+
+/* section-3 cards */
+
+.card {
+  min-width: 13rem;
+  max-width: 14rem;
+}
+.fixed-img {
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
+  width: 100%; /* Ensures images stretch to fill the card width */
+}
+
+/* !    media quiries    */
 
 @media (max-width: 1000px) {
   .heading {
@@ -70,7 +89,16 @@ nav li {
   }
 }
 
-.badge{
-  top : -6px;
-  right: -6px;
+
+@media (max-width: 767px) {
+  /* .section-3 .card {
+   
+  max-width: 18rem;
+  } */
+
+  .btn-droping{
+    font-size: .6rem;
+  }
 }
+
+
