@@ -1,0 +1,8 @@
+nav li {
+  list-style: none;
+}
+
+.badge {
+  top: -6px;
+  right: -6px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="icon" type="image/png" href="./media/Logo.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+
+    <!-- font-awesomw-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./products.css" />
+    <link rel="stylesheet" href="./footer.css" />
+  </head>
+  <body>
+    <!-- ! nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div
+          class="d-flex justify-content-center align-items-center"
+          style="height: 50px; width: 50px"
+        >
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./media/Logo.png" alt="logo"
+          /></a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./products.html"
+                >Products</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex gap-3 flex-column flex-lg-row">
+            <li
+              class="nav-item bg-warning rounded rounded-5 p-3 align-self-start position-relative"
+            >
+              <a class="nav-link" href="https://www.google.com/"
+                ><i class="fa-solid fa-cart-shopping fa-lg"></i
+              ></a>
+              <!--  -->
+              <span
+                class="badge badge-light position-absolute fw-medium fs-5 text-danger"
+                >4</span
+              >
+            </li>
+            <li class="nav-item align-self-lg-center align-self-start">
+              <a class="nav-link" href="https://www.google.com/"
+                >Contact Support</a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! -->
+
+    <div class="container main">
+      <div class="row py-5">
+        <!--!  main-col-first -->
+        <div class="col-md-6 col-lg-6 me-lg-3">
+          <!-- first row -->
+          <div class="row position-static">
+            <div class="col-12 col-lg-9">
+              <h1 class="text-uppercase heading">discover now</h1>
+            </div>
+            <div class="col col-lg-3 my-4 my-lg-0">
+              <h6 class="text-uppercase">products</h6>
+            </div>
+          </div>
+          <!-- second row -->
+
+          <div class="row">
+            <div class="col text-capitalize">
+              <p class="lead fs-6 fw-medium mt-1 mt-lg-3">
+                Dive into the world of fashion excellence at Klothink. Our
+                curated selection brings together the latest trends and timeless
+                classics, offering you a diverse array of clothing items that
+                resonate with your unique style.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-5 mt-4 mt-md-0 d-flex justify-content-md-center align-items-center"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-4 d-flex flex-column gap-2 p-0">
+                <span class="fw-semibold fs-6">Exclusive Offers</span>
+                <span class="offer">30% off on Selected items</span>
+              </div>
+              <div class="col-4 d-flex flex-column gap-2">
+                <span class="fw-semibold fs-6">Exclusive Offers</span>
+                <span class="offer">30% off on Selected items</span>
+              </div>
+              <div class="col-4 d-flex flex-column gap-2">
+                <span class="fw-semibold fs-6">Exclusive Offers</span>
+                <span class="offer">30% off on Selected items</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- !bootstrap js -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

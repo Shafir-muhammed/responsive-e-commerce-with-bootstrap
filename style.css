@@ -1,28 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-html {
-  /* background-color: aqua; */
-}
-
-nav li {
-  list-style: none;
-}
-
-.badge {
-  top: -6px;
-  right: -6px;
-}
-
 .bg-light-grey {
   background-color: #e7f2e4;
-}
-
-.btn-pos {
-  top: 0;
-  left: 0;
 }
 
 .my-btns {
@@ -53,16 +30,6 @@ nav li {
   width: 100%; /* Ensures images stretch to fill the card width */
 }
 
-
-
-.caro-icon,
-.caro-icon {
-  background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.carousel-control-prev, .carousel-control-next {
-  z-index: 10; /* Ensure buttons appear above other elements */
-}
 /* !    media quiries    */
 
 @media (max-width: 1000px) {
@@ -99,16 +66,13 @@ nav li {
   }
 }
 
-
 @media (max-width: 767px) {
   /* .section-3 .card {
    
   max-width: 18rem;
   } */
 
-  .btn-droping{
-    font-size: .6rem;
+  .btn-droping {
+    font-size: 0.6rem;
   }
 }
-
-
