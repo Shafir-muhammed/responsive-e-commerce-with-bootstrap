@@ -24,7 +24,6 @@ img {
   object-fit: cover;
 }
 
-
 @media (min-width: 576px) {
   #product-about {
     padding-left: 15%;
