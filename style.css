@@ -61,9 +61,9 @@
 }
 
 @media (max-width: 780px) {
-  .carosal-700 {
+  /* .carosal-700 {
     left: -1.5rem;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
